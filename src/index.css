@@ -1,0 +1,84 @@
+@font-face {
+  font-family: NeueMontreal-Regular;
+  src: url(assets/fonts/NeueMontreal-Regular.otf);
+}
+@font-face {
+  font-family: NeueMontreal-Medium;
+  src: url(assets/fonts/NeueMontreal-Medium.otf);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: NeueMontreal-Regular, sans-serif;
+  line-height: 1.5;
+
+  color: #213547;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+h1{
+  font: 500 72px NeueMontreal-Medium, sans-serif;
+}
+
+h3{
+  font-family: NeueMontreal-Medium, sans-serif;
+}
+
+a {
+  font-family: NeueMontreal-Medium, sans-serif;
+  color: #C7D0D9;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #747bff;
+}
+
+.hidden {
+  animation: fade-out 0.75s ease-in-out forwards;
+}
+
+.unhidden {
+  animation: fade-in 0.75s ease-in-out forwards;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  width: fit-content;
+}
+
+@keyframes fade-in {
+  from {
+    right: -60vw;
+  }
+  to {
+    right: 0;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    right: 0px;
+  }
+  to {
+    right: -60vw;
+  }
+}

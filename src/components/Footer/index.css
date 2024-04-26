@@ -1,0 +1,39 @@
+.footer {
+    background-color: #0B0C0E;
+    color: #F4F7FA;
+    height: 70vh;
+    margin-top: 100px;
+    display: grid;
+    grid-template-rows: 9fr 1fr;
+    padding-bottom: 10px;
+}
+
+.footer h2 {
+    font: 500 60px NeueMontreal-Medium, sans-serif;
+    line-height: 72px;
+    margin: 10px 0;
+}
+
+.footer .man-photo {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+
+}
+
+.footer img {
+    border-radius: 50%;
+}
+
+.footer .footer-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: fit-content;
+    position: relative;
+    margin: auto 0;
+    padding: 0 100px;
+}
+
+.footer button {
+    margin: auto 0 auto auto;
+    right: 0;
+}

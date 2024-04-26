@@ -1,0 +1,15 @@
+article.portfolio-list {
+    margin-top: 100px;
+    overflow-x: hidden;
+    width: 98.5vw;
+}
+
+article.portfolio-list div {
+    width: 1870px;
+    position: relative;
+    left: -275px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+

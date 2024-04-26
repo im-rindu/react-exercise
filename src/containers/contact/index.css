@@ -1,0 +1,6 @@
+.contact{
+    width: 100vw;
+    padding: 100px 0;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}

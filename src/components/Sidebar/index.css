@@ -1,0 +1,58 @@
+aside {
+    background-color: #0B0C0E;
+    width: 50vw;
+    height: 100vh;
+    right: 0;
+    position: fixed;
+    z-index: 2;
+    color: #C7D0D9;
+    right: -60vw;
+}
+
+aside li:hover{
+    color: #747bff
+}
+
+aside ul{
+    display: flex;
+    padding-left: 60px;
+}
+
+aside ul.nav{
+    flex-direction: column;
+    top: 50%;
+    margin: 40px 0;
+}
+
+aside ul.nav h1{
+    margin: 25px 0;
+    height: fit-content;
+}
+
+aside ul.social{
+    position: absolute;
+    bottom: 15px;
+    width: 60%;
+    margin-left: 5px;
+    justify-content: space-between;
+}
+
+aside button{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background-color: #C7D0D9;
+    margin: auto;
+    font-size: 60px;
+    transform: rotate(45deg);
+    width: 75px;
+    height: 75px;
+    padding: 0;
+    border-radius: 50%;
+}
+
+aside button span{
+    position: relative;
+    bottom: 2.5px;
+}
+

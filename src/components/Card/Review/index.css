@@ -1,0 +1,23 @@
+article.review{
+    margin-bottom: 50px;
+}
+
+article .reviewer-info{
+    margin-top: 20px;
+    width: fit-content;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr 4fr;
+}
+
+article .reviewer-info div{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto 0;
+}
+
+article .reviewer-info p {
+    margin: 0;
+}

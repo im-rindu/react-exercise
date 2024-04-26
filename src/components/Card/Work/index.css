@@ -1,0 +1,23 @@
+article.recent-work {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+article.recent-work h2 {
+    font-family: NeueMontreal-Medium, sans-serif;
+}
+
+article button{
+    background-color: transparent;
+    position: relative;
+    margin: auto 0 auto auto;
+    border: 0.1px solid #0b0c0ec4;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    padding: 0;
+}
+
+article button:hover {
+    background-color: #747bff;
+}

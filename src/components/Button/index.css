@@ -1,0 +1,22 @@
+button {
+    height: fit-content;
+    width: fit-content;
+    border-radius: 170px;
+    border: 1px solid transparent;
+    padding: 1.5em 3em;
+    font-size: 1em;
+    font-family: NeueMontreal-Medium, sans-serif;
+    font-family: inherit;
+    background-color: #F4F7FA;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button:hover {
+    background-color: #747bff;
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}

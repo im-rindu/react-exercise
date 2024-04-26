@@ -1,0 +1,71 @@
+.banner {
+    background-color: #C7D0D9;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.banner img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 90%;
+}
+
+.banner h1{
+    font: 500 150px NeueMontreal-Medium, sans-serif;
+    line-height: 180px;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+}
+
+.banner .hi-icon{
+    color: #C7D0D9;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    right: -255px;
+    top: 40vh;
+    width: 350px;
+    height: 75px;
+    border-radius: 50px;
+    padding-bottom: 5px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.banner .hi-icon:hover{
+    animation-name: hi-move;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.banner .hi-icon:not(:hover){
+    animation-name: hi-move-out;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.banner .hi-icon img{
+    position: relative;
+    margin: auto 20px auto 25px;
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes hi-move {
+    from {right: -255px;}
+    to {right: -100px;}
+}
+
+@keyframes hi-move-out {
+    from {right: -100px;}
+    to {right: -255px;}
+}
