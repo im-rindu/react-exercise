@@ -1,3 +1,4 @@
+import {Button} from "../../";
 import "./index.css";
 
 function Work({item}) {
@@ -7,11 +8,7 @@ function Work({item}) {
         <h2>{item.title}</h2>
         <p>{item.work}</p>
       </div>
-      <button>
-        <a href={item.link}>
-          <img style={{marginTop: "2.5px"}} src="/images/arrow.png" />
-        </a>
-      </button>
+      <Button buttonType="rounded" buttonColor="transparent" buttonImage="/images/arrow.png" />
     </article>
   )
 }

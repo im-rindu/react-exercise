@@ -1,3 +1,4 @@
+import {Button} from "../";
 import Field from "./Field";
 import "./index.css";
 
@@ -10,7 +11,7 @@ function Form({title, fieldSet}) {
           fieldSet.map((fieldType) => 
             <Field id={fieldType.id} label={fieldType.label} type={fieldType.type} rows={fieldType.rows} placeholder={fieldType.placeholder} />)
         }
-      <button>Submit</button>
+      <Button buttonName="Submit" buttonType="square" buttonColor="dark" buttonSize="regular" />
       </div>
     </form>
   )

@@ -1,22 +1,58 @@
 button {
     height: fit-content;
     width: fit-content;
-    border-radius: 170px;
-    border: 1px solid transparent;
-    padding: 1.5em 3em;
     font-size: 1em;
     font-family: NeueMontreal-Medium, sans-serif;
-    font-family: inherit;
-    background-color: #F4F7FA;
     cursor: pointer;
-    transition: border-color 0.25s;
 }
 
-button:hover {
+button img{
+    margin-top: 2.5px;
+}
+
+button.square{
+    border-radius: 170px;
+    border: 1px solid transparent;
+}
+
+button.rounded{
+    position: relative;
+    margin: auto 0 auto auto;
+    border: 0.1px solid #0b0c0ec4;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    padding: 0;
+}
+
+button.rounded:hover,
+button.square:hover {
     background-color: #747bff;
 }
 
-button:focus,
-button:focus-visible {
-    outline: 4px auto -webkit-focus-ring-color;
+button.rounded span{
+    position: relative;
+    bottom: 2.5px;
+}
+
+button.light{
+    background-color: #F4F7FA;
+    color: #0b0c0e;
+}
+
+button.dark{
+    background-color: #0b0c0e;
+    color: #F4F7FA;
+}
+
+button.transparent{
+    background-color: transparent;
+}
+
+button.large{
+    padding: 1.5em 3em;
+}
+
+button.regular{
+    padding: 1em 2em;
 }

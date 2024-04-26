@@ -37,22 +37,10 @@ aside ul.social{
     justify-content: space-between;
 }
 
-aside button{
+aside .close-button{
     position: absolute;
     top: 40px;
     right: 40px;
-    background-color: #C7D0D9;
-    margin: auto;
     font-size: 60px;
     transform: rotate(45deg);
-    width: 75px;
-    height: 75px;
-    padding: 0;
-    border-radius: 50%;
 }
-
-aside button span{
-    position: relative;
-    bottom: 2.5px;
-}
-

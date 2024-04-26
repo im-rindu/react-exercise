@@ -1,3 +1,4 @@
+import {Button} from "../";
 import "./index.css"
 
 function Sidebar({setIsHome}) {
@@ -15,7 +16,9 @@ function Sidebar({setIsHome}) {
         <li>Instagram</li>
         <li>Webflow</li>
       </ul>
-      <button className="close-aside" onClick={hide} ><span>+</span></button>
+      <div className="close-button" onClick={hide}>
+        <Button buttonName="+" buttonType="rounded" buttonColor="light"/>
+      </div>
     </aside>
   );
 }

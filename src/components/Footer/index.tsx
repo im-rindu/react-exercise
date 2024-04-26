@@ -17,7 +17,7 @@ function Footer(){
             <img src="/images/the-man-circle.png" /><h2> let's build together.</h2>
           </div>
         </div>
-        <Button buttonName="Get in touch" />
+        <Button buttonName="Get in touch" buttonType="square" buttonColor="light" buttonSize="large" />
       </div>
       <div>
         <Nav leftNav="Build with 💖 by Brightscout & Ayush" rightNav={navList} />

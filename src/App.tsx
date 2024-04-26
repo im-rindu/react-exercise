@@ -3,7 +3,6 @@ import { Footer, Nav, Sidebar } from './components'
 import {Home, Contact} from './containers'
 
 function App() {
-  //create react state isHome
   const [isHome, setIsHome] = React.useState(true)
   
   const navBar = [
